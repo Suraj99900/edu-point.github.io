@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+}
+
+.navigation
+{
+    width: 100vw;
+}
+
+.navigation #logo
+{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.navigation .navbar-brand
+{
+    text-transform: uppercase;
+    color: red;
+    background:rgba(0, 110, 255, 0.788);
+}
+
+.slider .carousel-inner img
+{
+    width: 100vw;
+    height: 80vh;
+}
+
+.container_link 
+{
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 50px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.container
+{
+    padding:20px 0 ;
+    padding-top: 10px;
+    /* width: 100vw; */
+    position: relative;
+}
+.container::before
+{
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85vw;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.37);
+}
